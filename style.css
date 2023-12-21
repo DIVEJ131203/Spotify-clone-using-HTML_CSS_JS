@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+body
+{
+    background-color: rgb(34, 31, 31);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+font-family: 'ubuntu',sans-serif;
+color: azure;
+background-color: black;
+}
+nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+}
+nav ul li
+{
+    padding: 0 10px;
+}
+img
+{
+    padding: 0 8px;
+    height: 50px;
+    width: 80px;
+}
+.brand
+{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: large;
+}
+.container
+{
+    min-height: 75vh;
+    background-color:rgb(34, 31, 31);
+    color:black;
+    font-family: 'ubuntu',sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 15px;
+    padding: 34px;
+    background-image: url("https://wallpapercave.com/wp/wp2201949.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom
+{
+    color: antiquewhite;
+    position: sticky;
+    height: 130px;
+    background-color:rgb(34, 31, 31);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#myProgressBar
+{
+    margin-top: 18px;
+    width: 80vw;
+    cursor: pointer;
+    
+}
+.playimage
+{
+    margin-top: 10px;
+    width: 45px;
+    height: 50px;
+}
+.icons img
+{
+    cursor: pointer;
+}
+.songItems
+{
+    height: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(34, 31, 31);
+    color: azure;
+    border-radius: 14px;
+}
+.lowplay
+{
+height: 25px;
+width:30px;
+}
+.TimeStamp
+{
+    margin-left: 5px;
+    font-size: medium;
+}
+.space
+{
+    margin-left: 0;
+}
+.lowplay
+{
+    cursor: pointer;
+}
+.SongItemContainer
+{
+    margin-top: 60px;
+}
+.songInfo
+{
+    font-family: 'ubuntu',sans-serif;
+    position: absolute;
+    left: 10vw;
+}
+.songInfo img
+{
+    height: 20px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
